@@ -269,7 +269,7 @@ function config_deb {
 function config_redhat {
   echo -e "${LPURP}***** Do the RedHat setup *****${NC}"
   sudo yum update -y
-  sudo yum groupinstall 'Development Tools'
+  sudo yum groupinstall 'Development Tools' -y
 }
 
 ########################
